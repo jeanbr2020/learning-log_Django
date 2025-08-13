@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Django
+*.log
+db.sqlite3
+/static/
+/media/
+
+# Virtual environments
+ll_env/
+venv/
+ENV/
+.env
+
+# VS Code
+.vscode/
+
+# Migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Others
+*.swp
+*.swo
+*.bak
+*.tmp
